@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{87, 13}, {386, 81}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "",
+          "frame" : "{{243, 265}, {150, 32}}",
+          "uuid" : "D50E5930-F50F-44EC-8F1A-E71495DDD645",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter a whole number to get factorial number",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{105, 160}, {124, 50}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{278, 265}, {80, 32}}",
+          "title" : "calculate",
+          "uuid" : "2A437B0F-B11A-4630-839B-44093156022E",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{105, 225}, {165, 48}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{243, 265}, {150, 32}}",
+          "uuid" : "EB923235-7674-4816-A2DC-2C9DF787550D",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{105, 120}, {200, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "user_number_textfield",
+          "frame" : "{{218, 265}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "E47935CE-9AC6-485F-93EF-77576CEADB26",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {636, 561}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
